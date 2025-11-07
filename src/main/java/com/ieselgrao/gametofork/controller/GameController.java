@@ -27,18 +27,18 @@ public class GameController {
     private Random random = new Random();
 
     // Parámetros de los círculos
-    private final double MIN_RADIUS = 10;
-    private final double MAX_RADIUS = 30;
-    private final double FALL_SPEED = 1;
-    private final double LOST_LINE_Y = 550; // Línea cerca del pie de la ventana (600px)
+    private final double MIN_RADIUS = 9;
+    private final double MAX_RADIUS = 20;
+    private final double FALL_SPEED = 9;
+    private final double LOST_LINE_Y = 450; // Línea cerca del pie de la ventana (600px)
 
     @FXML
     public void initialize() {
         model = MainApplication.getGameModel();
 
         // Bindeo de etiquetas a las propiedades del modelo
-        scoreLabel.textProperty().bind(model.scoreProperty().asString("Puntuación: %d"));
-        livesLabel.textProperty().bind(model.livesProperty().asString("Vidas: %d"));
+        scoreLabel.textProperty().bind(model.scoreProperty().asString("punticos: %d"));
+        livesLabel.textProperty().bind(model.livesProperty().asString("viditas: %d"));
 
         // Dibuja la línea roja de pérdida de vida
         Line lossLine = new Line(0, LOST_LINE_Y, gamePane.getWidth(), LOST_LINE_Y);
