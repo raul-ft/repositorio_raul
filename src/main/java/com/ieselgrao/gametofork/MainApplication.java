@@ -25,16 +25,16 @@ public class MainApplication extends Application {
     }
 
     public static void switchToStartView() throws IOException {
-        loadScene("start-view.fxml", 600, 600);
+        loadScene("start-view.fxml", 1280, 720);
     }
 
     public static void switchToGameView() throws IOException {
         gameModel.resetGame(); // Reinicia el estado del juego
-        loadScene("game-view.fxml", 600, 600);
+        loadScene("game-view.fxml", 1280, 720);
     }
 
     public static void switchToGameOverView() throws IOException {
-        loadScene("game-over-view.fxml", 600, 600);
+        loadScene("game-over-view.fxml", 1280, 720);
     }
 
     private static void loadScene(String fxmlFile, double width, double height) throws IOException {

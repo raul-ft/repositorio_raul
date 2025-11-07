@@ -15,7 +15,7 @@ public class GameOverController {
     public void initialize() {
         // Muestra la puntuación final del modelo de juego
         int finalScore = MainApplication.getGameModel().getScore();
-        finalScoreLabel.setText("Puntuación Final: " + finalScore);
+        finalScoreLabel.setText("has ganado estos puntos craack: " + finalScore);
     }
 
     @FXML
