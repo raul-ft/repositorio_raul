@@ -6,13 +6,13 @@ Voy a explicar los cambios que he hecho en este juego paso a paso para llegar a 
 ## pasos
 
 1. Me he creado un repositorio vacio en mi cuenta de GitHub.
-![Alt Text](./img/Pasted-image)
+![Alt Text](./img/Pasted-image.png)
 2. Entro a Gitkraken, inicio sesion, y pongo mi repositorio vacio, para luego clonar el repositorio de Alvaro en mi repositorio.
-![Alt Text](./img/Pasted-image(2))
+![Alt Text](./img/Pasted-image(2).png)
 3. Edito el remoto de mi Gitkraken y pongo mi repositorio.
-![Alt Text](./img/Pasted-image(3))
+![Alt Text](./img/Pasted-image(3).png)
 4. Creamos una nueva rama en el juego para hacer nuestros cambios.
-![Alt Text](./img/Pasted-image(4))
+![Alt Text](./img/Pasted-image(4).png)
 5. Con el Idea, podemos comenzar a hacer los cambios.
     ```java private final double MIN_RADIUS = 9;
     private final double MAX_RADIUS = 20;
@@ -23,8 +23,8 @@ Voy a explicar los cambios que he hecho en este juego paso a paso para llegar a 
     loadScene("start-view.fxml", 1280, 720);```
     
 6. despues de hacer los cambios los añades y realizas un **commit y un push**.
-    ![Alt Text](./img/Pasted-image(10))
+    ![Alt Text](./img/Pasted-image(10).png)
 7. Despues de tener tus cambios en la rama secundaria de tu repositorio en GitHub haces un **pull request** para fusionar tu rama secundaria con la principal.
-    ![Alt Text](./img/Pasted-image(12))
+    ![Alt Text](./img/Pasted-image(12).png)
 8. y asi se nos ve la fusion de la rama:
-    ![Alt Text](./img/Pasted-image(11))
+    ![Alt Text](./img/Pasted-image(11).png)
